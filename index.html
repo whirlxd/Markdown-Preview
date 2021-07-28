@@ -48,11 +48,11 @@ preview.open();
   buttonColorLight: '#fff', // default: '#fff'
   saveInCookies: true, // default: true,
   label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
+  autoMatchOsTheme: false // don't enable it (for some reason the code breaks when you do that :C)
 }
 
 const darkmode = new Darkmode(options);
-darkmode.showWidget();
+darkmode.showWidget();//curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 </script>
   
 </html>
