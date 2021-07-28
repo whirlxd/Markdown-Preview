@@ -11,6 +11,7 @@
         let render = document.getElementById('torender').value
       var md = window.markdownit();
 var result = md.render(render);
+console.log(result)
 let preview = document.querySelector("#preview-window").contentWindow.document;
 preview.open();
 	preview.write(result);
